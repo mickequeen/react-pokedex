@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+
+.navbar{
+  padding-top: 0.3em;
+  height: 6em;
+  background-color: #951f1f;
+}
+
+.img-responsive{
+  height: 4em;
+  margin-top: 0.5em;
+}
