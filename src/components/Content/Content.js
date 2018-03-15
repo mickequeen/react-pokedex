@@ -6,7 +6,7 @@ class Content extends Component{
   render() {
     
     return(
-      <div>
+      <div id="content">
         <Card/>
       </div>
     )
