@@ -1,0 +1,14 @@
+.contenedor {
+  border: 8px solid #000;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  background-color: #e4e4e4;
+}
+
+.contenedor img {
+  padding-top: 10px;
+  padding-left: 18px;
+  width: 96px;
+  height: 96px;
+}

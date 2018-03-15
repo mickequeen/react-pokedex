@@ -7,8 +7,11 @@ import Content from './components/Content/Content.js'
 class App extends Component {
   render() {
     return (
-      <Nav></Nav>
-    );
+      <div>
+        <Nav></Nav>
+        <Content></Content>
+      </div>
+    )
   }
 }
 
