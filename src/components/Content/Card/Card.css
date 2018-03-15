@@ -1,7 +1,9 @@
 .contenedor {
+  margin: 1em;
   border: 8px solid #000;
   border-radius: 100%;
   width: 130px;
+  display: inline-block;
   height: 130px;
   background-color: #e4e4e4;
 }
@@ -11,4 +13,12 @@
   padding-left: 18px;
   width: 96px;
   height: 96px;
+}
+
+p{
+  text-align: center;
+  padding: 0.3em;
+  background-color: rgba(0,0,0,.5);
+  color: #FFF;
+  font-weight: bolder;
 }
