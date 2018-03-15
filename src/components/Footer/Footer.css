@@ -1,0 +1,13 @@
+#footer {
+  background-color: #c31010;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 100px;
+}
+
+#footer h6 {
+  text-align: center;
+  color: #e4e4e4;
+  padding-top: 2em;
+}

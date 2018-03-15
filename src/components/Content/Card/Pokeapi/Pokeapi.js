@@ -4,6 +4,7 @@ import './../Card.css';
 
 const urlPokemon = idPokemon => `https://pokeapi.co/api/v2/pokemon/${idPokemon}/`
 
+
 class Pokeapi extends Component {
 
   constructor(props) {
@@ -31,6 +32,7 @@ class Pokeapi extends Component {
   }
 
   render() {
+    
     if (!this.state.pokedata) return <Button id="name-poke">{this.props.buttonLabel}Loading...</Button>
     return (
       <div>

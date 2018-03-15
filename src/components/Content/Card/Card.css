@@ -24,3 +24,10 @@
   color: #FFF;
   font-weight: bolder;
 }
+
+.contenedor-inv {
+  margin: 2em;
+  width: 130px;
+  display: inline-block;
+  height: 130px;
+}
