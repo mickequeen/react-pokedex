@@ -1,5 +1,5 @@
 .contenedor {
-  margin: 1em;
+  margin: 2em;
   border: 8px solid #000;
   border-radius: 100%;
   width: 130px;
@@ -9,14 +9,16 @@
 }
 
 .contenedor img {
-  padding-top: 10px;
-  padding-left: 18px;
+  margin-top: 9px;
   width: 96px;
   height: 96px;
 }
 
-p{
+#name-poke{
   text-align: center;
+  margin-top: 2em;
+  margin-left: -22px;
+  width: 125px;
   padding: 0.3em;
   background-color: rgba(0,0,0,.5);
   color: #FFF;
