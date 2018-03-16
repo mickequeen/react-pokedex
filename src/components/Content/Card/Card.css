@@ -13,6 +13,12 @@
   width: 96px;
   height: 96px;
 }
+.pokeGifImg{
+  padding: 1em;
+  border: 1em solid #DEDEDE;
+  height: 12em;
+  background-color: #212121;
+}
 
 #name-poke{
   text-align: center;
@@ -30,4 +36,64 @@
   width: 130px;
   display: inline-block;
   height: 130px;
+}
+.modal-content{
+  background-color: #DC0A2D;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7rem;
+}
+
+.pokeDetail{
+  width: 49%;
+  display: inline-block;
+}
+
+ .containerGif{
+  width: 49%;
+  display: inline-flex;
+ }
+
+#bigBlue{
+  height: 3em;
+  width: 3em;
+  background: linear-gradient(to right bottom, #3C22FF, #331879);
+  border: 5px solid white;
+  border-radius: 2em;
+}
+
+.balls{
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  border-radius: 1em;
+  margin-right: 0.4em;
+}
+
+#littleRed{
+  background: linear-gradient(to right bottom, #F53535, #8E7E7E);
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+#littleYellow{
+  background: linear-gradient(to right bottom, #F3FF2C, #8E7E7E);
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+#littleGreen{
+  background: linear-gradient(to right bottom, #48E953, #8E7E7E);
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+/*colores de borde*/
+.normal{
+  border: 0.5em solid #BEBEAF;
+}
+.poison{
+  border: 0.5em solid #ac5da3;
+}
+.psychic{
+  border: 0.5em solid #FA63B3;
 }

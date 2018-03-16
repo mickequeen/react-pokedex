@@ -10,10 +10,6 @@ class Nav extends Component {
           <div className="container-fluid">
             <div className="navbar-header">
               <a className="navbar-brand" href="#">
-                <div className="balls" id="bigBlue"></div>
-                <div className="balls" id="littleRed"></div>
-                <div className="balls" id="littleYellow"></div>
-                <div className="balls" id="littleGreen"></div>
                 <img alt="Brand" src={logo} className="img-responsive"/>
               </a>
             </div>
@@ -24,4 +20,4 @@ class Nav extends Component {
   }
 }
 
-export default Nav; 
+export default Nav;

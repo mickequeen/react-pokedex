@@ -10,10 +10,9 @@ class Card extends Component {
     for (let i = 1; i <= 20; i++) {
       let url = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + i + '.png';
       superReturn.push(this.mostrarPokemon(url, i));
-
     }
     return (superReturn);
-      };
+  };
 
   mostrarPokemon(url, i) {
     return (
