@@ -5,6 +5,11 @@ import Nav from './components/Nav/Nav';
 import Content from './components/Content/Content';
 import Footer from "./components/Footer/Footer";
 
+
+/*
+*Componente que contiene todo lo renderizado (nav, contenido[card, modal], footer)
+*/
+
 class App extends Component {
   render() {
     return (

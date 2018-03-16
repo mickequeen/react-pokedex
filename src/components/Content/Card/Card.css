@@ -1,17 +1,19 @@
+/*estilos pokebolas que contienen png de pokémon*/
+
 .contenedor {
   margin: 2em;
-    border-right-width: 0.1em;
-    border-right-style: solid;
-    border-right-color: #000;
-    border-left-style: solid;
-    border-left-color: #000;
-    border-left-width: 0.1em;
-    border-bottom-width: 0.8em;
-    border-bottom-style: ridge;
-    border-bottom-color: #fff;
-    border-top-width: 0.8em;
-    border-top-style: ridge;
-    border-top-color: red;
+  border-right-width: 0.1em;
+  border-right-style: solid;
+  border-right-color: #000;
+  border-left-style: solid;
+  border-left-color: #000;
+  border-left-width: 0.1em;
+  border-bottom-width: 0.8em;
+  border-bottom-style: ridge;
+  border-bottom-color: #fff;
+  border-top-width: 0.8em;
+  border-top-style: ridge;
+  border-top-color: red;
   border-radius: 100%;
   width: 130px;
   display: inline-block;
@@ -24,6 +26,7 @@
   width: 96px;
   height: 96px;
 }
+
 .pokeGifImg{
   outline: 1px solid;
   padding: 1em;
@@ -49,6 +52,9 @@
   display: inline-block;
   height: 130px;
 }
+
+/*estilos del modal tipo pokedex, letra 8bits*/
+
 .modal-content{
   background-color: #DC0A2D;
   font-family: 'Press Start 2P', cursive;
@@ -99,17 +105,9 @@
   margin-bottom: 1em;
 }
 
-/*colores de borde*/
-.normal{
-  border: 0.5em solid #BEBEAF;
-}
-.poison{
-  border: 0.5em solid #ac5da3;
-}
-.psychic{
-  border: 0.5em solid #FA63B3;
-}
-
+/*
+*query para hacer responsive en dispositivos pequeños
+*/
 @media (max-width: 410px){
   .contenedor{
     margin:0;

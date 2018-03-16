@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './../../img/logo.png'
 import './Nav.css'
 
+/*
+*componente navbar con logo pokedex
+*/
 class Nav extends Component {
   render(){
     return(

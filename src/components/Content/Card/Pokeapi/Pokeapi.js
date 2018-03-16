@@ -4,6 +4,9 @@ import pokemonGif from 'pokemon-gif';
 import pokedexNumberToName from 'pokemon-gif/lib/pokedex-number-to-name';
 import './../Card.css';
 
+/*
+*acceso a pokeapi mediante id de pokémon
+*/
 const urlPokemon = idPokemon => `https://pokeapi.co/api/v2/pokemon/${idPokemon}/`
 
 class Pokeapi extends Component {
@@ -15,7 +18,9 @@ class Pokeapi extends Component {
     }
     this.toggle = this.toggle.bind(this);
   }
-
+/*
+*toggle para aparición de modal
+*/
   toggle() {
     this.setState({
       modal: !this.state.modal
@@ -31,9 +36,10 @@ class Pokeapi extends Component {
         })
       })
   }
-
+  /*
+  *renderizado de modal y nombre al llegar llamado de pokeapi
+  */
   render() {
-    
     if (!this.state.pokedata) return <Button id="name-poke">{this.props.buttonLabel}Loading...</Button>
     return (
       <div>
@@ -47,6 +53,7 @@ class Pokeapi extends Component {
           </ModalHeader>
           <ModalBody>
           <div className="containerGif">
+            {/*acceso a api de pokeGifs, llamado mediante nombre de pokémon traido desde pokeapi*/}
             <img className="pokeGifImg" src={pokemonGif(this.state.pokedata.name)}/>
           </div>
           <div className="pokeDetail">
