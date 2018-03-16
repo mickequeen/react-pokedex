@@ -50,6 +50,10 @@ npm install
 npm start
 ```
 
+## Wireframe
+
+![Wireframe](http://drive.google.com/uc?export=view&id=1Xc1E0lKXnmp0V-690sY0HWeyzNw9TaHc)
+
 ## Contribuidoras
 
 - [Carol Martínez](https://github.com/cynthia1171)
