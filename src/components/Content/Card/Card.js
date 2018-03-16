@@ -13,10 +13,10 @@ class Card extends Component {
     }
     return (superReturn);
   };
-
+  
   mostrarPokemon(url, i) {
     return (
-      <div className='col-md-2 contenedor' onClick={(e) => this.testfunction(i, e)}>
+      <div className='col-md-2 contenedor' onClick={(e) => this.testfunction(i, e)} id={`cont_${i}`}>
         <img src={url} id={i} />
         <Pokeapi idPokemon={i}></Pokeapi>
       </div>

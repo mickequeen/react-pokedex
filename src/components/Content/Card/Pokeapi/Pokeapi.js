@@ -34,7 +34,7 @@ class Pokeapi extends Component {
 
   render() {
     
-    if (!this.state.pokedata) return <Button id="name-poke">{this.props.buttonLabel}Loading...</Button>;
+    if (!this.state.pokedata) return <Button id="name-poke">{this.props.buttonLabel}Loading...</Button>
     return (
       <div>
         <Button id="name-poke" onClick={this.toggle}>{this.props.buttonLabel}{this.state.pokedata.name}</Button>

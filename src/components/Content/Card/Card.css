@@ -1,11 +1,22 @@
 .contenedor {
   margin: 2em;
-  border: 8px solid #000;
+    border-right-width: 0.1em;
+    border-right-style: solid;
+    border-right-color: #000;
+    border-left-style: solid;
+    border-left-color: #000;
+    border-left-width: 0.1em;
+    border-bottom-width: 0.8em;
+    border-bottom-style: ridge;
+    border-bottom-color: #fff;
+    border-top-width: 0.8em;
+    border-top-style: ridge;
+    border-top-color: red;
   border-radius: 100%;
   width: 130px;
   display: inline-block;
   height: 130px;
-  background-color: #e4e4e4;
+  background-color: #141717;
 }
 
 .contenedor img {
@@ -14,6 +25,7 @@
   height: 96px;
 }
 .pokeGifImg{
+  outline: 1px solid;
   padding: 1em;
   border: 1em solid #DEDEDE;
   height: 12em;
@@ -96,4 +108,20 @@
 }
 .psychic{
   border: 0.5em solid #FA63B3;
+}
+
+@media (max-width: 410px){
+  .contenedor{
+    margin:0;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  .pokeGifImg{
+    height: 10em;
+  }
+  .pokeDetail p{
+      margin-bottom: 0rem;
+  }
 }
