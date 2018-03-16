@@ -2,9 +2,9 @@
 
 Pokedex es una plataforma hecha en React en donde puedes ver información de cada pókemon. 
 
-[Página principal](https://drive.google.com/file/d/1MAN7G3uuc2yBj6PemGV65tNylPoeBVTa/view?usp=sharing)
+![Página principal](https://drive.google.com/file/d/1MAN7G3uuc2yBj6PemGV65tNylPoeBVTa/view?usp=sharing)
 
-[Modal con información del pokemon](https://drive.google.com/file/d/1524pw4vRVn-WBI_WJRIxKzOmsg5ME0HW/view?usp=sharing)
+![Modal con información del pokemon](https://drive.google.com/file/d/1524pw4vRVn-WBI_WJRIxKzOmsg5ME0HW/view?usp=sharing)
 
 ## Herramientas utilizadas
 
